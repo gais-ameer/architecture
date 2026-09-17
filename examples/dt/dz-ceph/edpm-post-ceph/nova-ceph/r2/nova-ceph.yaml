@@ -18,7 +18,7 @@ spec:
     - configMapRef:
         name: nova-extra-config-az2
     - secretRef:
-        name: nova-cell1-compute-config
+        name: nova-cell3-compute-config
     - secretRef:
         name: nova-migration-ssh-key
   edpmServiceType: nova

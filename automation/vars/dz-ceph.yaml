@@ -333,3 +333,7 @@ vas:
             extra_vars:
               _number_of_computes: 3
               _cell_conductor: nova-cell0-conductor-0
+          - name: Setup Cinder volume types and Nova aggregates
+            type: playbook
+            source: "../../hooks/playbooks/dz_storage_post_deploy_az.yaml"
+            inventory: "${HOME}/ci-framework-data/artifacts/zuul_inventory.yml"

@@ -13,7 +13,7 @@ data:
     - install-certs
     - ceph-client
     - ovn
-    - neutron-metadata
+    - neutron-metadata-az1
     - ovn-bgp-agent
     - libvirt
     - nova-custom-ceph-az1
